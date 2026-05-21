@@ -210,9 +210,9 @@
         </a>
 
         <nav class="hidden md:flex items-center gap-8 text-[14px] text-navy/85" aria-label="Principal">
+          <a href="#onde"  class="nav-link">Onde atendo</a>
           <a href="#sobre" class="nav-link">Sobre</a>
           <a href="#areas" class="nav-link">Áreas</a>
-          <a href="#onde"  class="nav-link">Onde atendo</a>
           <a href="#contato" class="nav-link">Contato</a>
         </nav>
 
@@ -319,6 +319,170 @@
             <div class="flex items-center gap-1.5 text-faint text-[10.5px] tracking-[0.10em] uppercase mb-1"><span class="status-dot" aria-hidden="true"></span>Especialidades</div>
             Otorrinolaringologia · Alergia e imunologia
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ONDE ATENDO
+         ============================================================ -->
+    <section id="onde" class="bg-cream rule-navy-t">
+      <div class="max-w-[1180px] mx-auto px-6 md:px-12 pt-24 md:pt-28 pb-20 md:pb-24">
+        <div class="flex flex-col gap-4 mb-12">
+          <div class="text-[12px] tracking-[0.18em] uppercase text-bordo flex items-center gap-3">
+            <span class="w-7 h-px bg-bordo" aria-hidden="true"></span>
+            Onde atendo
+          </div>
+          <h2 class="serif font-medium text-[44px] md:text-[56px] leading-[1.04] tracking-tight text-navy max-w-[760px]">
+            Dois endereços. Mesma agenda, mesmo WhatsApp.
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 items-start">
+
+          <!-- CARD 1 — Guanhães -->
+          <div class="location-card onde-card rounded-2xl overflow-hidden relative"
+               style="border:1px solid rgba(27,47,78,0.18);"
+               data-card="guanhaes"
+               data-bg-url="https://maps.googleapis.com/maps/api/staticmap?center=Rua+Dr+Odilon+Behrens+164+Guanhaes+MG&zoom=15&size=600x400&maptype=roadmap">
+            <div class="onde-overlay absolute inset-0 pointer-events-none" style="background:rgba(27,47,78,0.85); opacity:0; transition:opacity .45s ease; z-index:0;"></div>
+            <button class="card-toggle onde-trigger relative w-full text-left px-8 pt-8 pb-7 flex flex-col" style="z-index:1;">
+              <span class="card-kicker onde-kicker text-[11px] tracking-[0.18em] uppercase mb-3">Atendimento principal</span>
+              <span class="card-city onde-city serif italic leading-[1.0] tracking-tight" style="font-size:clamp(38px,3.5vw,52px)">Guanhães</span>
+              <span class="card-label onde-label mt-4 text-[12px] tracking-[0.08em] uppercase font-medium">Ver detalhes ↓</span>
+            </button>
+            <div class="card-content overflow-hidden relative" style="z-index:1;">
+              <div class="px-8 pb-8 pt-1 flex flex-col gap-5">
+                <div>
+                  <div class="onde-lbl text-[11px] tracking-[0.18em] uppercase mb-2" style="color:rgba(248,245,240,0.70);">Endereço</div>
+                  <a href="https://maps.google.com/?q=Rua+Dr.+Odilon+Behrens,+164,+Guanhães,+MG" target="_blank" rel="noopener"
+                     class="text-[15px] leading-[1.65] underline underline-offset-2 decoration-[rgba(248,245,240,0.40)]" style="color:#F8F5F0;">
+                    Rua Dr. Odilon Behrens, 164, 2º andar<br/>
+                    Centro · Guanhães/MG · CEP 39740-000
+                  </a>
+                </div>
+                <div>
+                  <div class="onde-lbl text-[11px] tracking-[0.18em] uppercase mb-2" style="color:rgba(248,245,240,0.70);">Telefones</div>
+                  <p class="text-[15px]" style="color:#F8F5F0;">(33) 98877-5600 · (33) 3421-1645</p>
+                </div>
+                <div>
+                  <div class="onde-lbl text-[11px] tracking-[0.18em] uppercase mb-2" style="color:rgba(248,245,240,0.70);">Ligar para agendar</div>
+                  <a href="tel:+553334211804" class="text-[15px] underline underline-offset-2" style="color:#F8F5F0;">(33) 3421-1804</a>
+                </div>
+                <div>
+                  <div class="onde-lbl text-[11px] tracking-[0.18em] uppercase mb-2" style="color:rgba(248,245,240,0.70);">Convênios</div>
+                  <p class="text-[15px] leading-[1.65]" style="color:#F8F5F0;">Unimed · Cenibra · Cassi<br/>PMMG · Univida · <em>Particular</em></p>
+                </div>
+                <a href="https://wa.me/5533988775600?text=Ol%C3%A1%20Dr.%20Marco%20Aur%C3%A9lio%2C%20gostaria%20de%20agendar%20uma%20consulta"
+                   target="_blank" rel="noopener"
+                   class="inline-flex items-center gap-2 px-5 py-3 rounded-full text-[14px] font-medium self-start mt-1"
+                   style="background:#8B2020; color:#F8F5F0;">
+                  Agendar via WhatsApp →
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 2 — Santa Maria do Suaçuí -->
+          <div class="location-card onde-card rounded-2xl overflow-hidden relative"
+               style="border:1px solid rgba(27,47,78,0.18);"
+               data-card="santamaria"
+               data-bg-url="https://maps.googleapis.com/maps/api/staticmap?center=Praca+Batista+Lopes+30+Santa+Maria+do+Suacui+MG&zoom=15&size=600x400&maptype=roadmap">
+            <div class="onde-overlay absolute inset-0 pointer-events-none" style="background:rgba(27,47,78,0.85); opacity:0; transition:opacity .45s ease; z-index:0;"></div>
+            <button class="card-toggle onde-trigger relative w-full text-left px-8 pt-8 pb-7 flex flex-col" style="z-index:1;">
+              <span class="card-kicker onde-kicker text-[11px] tracking-[0.18em] uppercase mb-3">Atendimento secundário</span>
+              <span class="card-city onde-city serif italic leading-[1.0] tracking-tight" style="font-size:clamp(30px,2.8vw,44px)">Santa Maria<br/>do Suaçuí</span>
+              <span class="card-label onde-label mt-4 text-[12px] tracking-[0.08em] uppercase font-medium">Ver detalhes ↓</span>
+            </button>
+            <div class="card-content overflow-hidden relative" style="z-index:1;">
+              <div class="px-8 pb-8 pt-1 flex flex-col gap-5">
+                <div>
+                  <div class="onde-lbl text-[11px] tracking-[0.18em] uppercase mb-2" style="color:rgba(248,245,240,0.70);">Endereço</div>
+                  <a href="https://maps.google.com/?q=Pra%C3%A7a+Batista+Lopes%2C+30%2C+Santa+Maria+do+Sua%C3%A7u%C3%AD%2C+MG" target="_blank" rel="noopener"
+                     class="text-[15px] leading-[1.65] underline underline-offset-2 decoration-[rgba(248,245,240,0.40)]" style="color:#F8F5F0;">
+                    Praça Batista Lopes, 30, Centro<br/>
+                    Santa Maria do Suaçuí/MG · CEP 39780-000
+                  </a>
+                </div>
+                <a href="https://wa.me/5533988775600?text=Ol%C3%A1%20Dr.%20Marco%20Aur%C3%A9lio%2C%20gostaria%20de%20agendar%20em%20Santa%20Maria%20do%20Sua%C3%A7u%C3%AD"
+                   target="_blank" rel="noopener"
+                   class="inline-flex items-center gap-2 px-5 py-3 rounded-full text-[14px] font-medium self-start mt-1"
+                   style="background:#8B2020; color:#F8F5F0;">
+                  Agendar via WhatsApp →
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 3 — Online -->
+          <div class="location-card onde-card rounded-2xl overflow-hidden relative"
+               style="border:1px solid rgba(27,47,78,0.18);"
+               data-card="online"
+               data-bg-url="">
+            <div class="onde-overlay absolute inset-0 pointer-events-none" style="background:rgba(27,47,78,0.92); opacity:0; transition:opacity .45s ease; z-index:0;"></div>
+            <button class="card-toggle onde-trigger relative w-full text-left px-8 pt-8 pb-7 flex flex-col" style="z-index:1;">
+              <span class="card-kicker onde-kicker text-[11px] tracking-[0.18em] uppercase mb-3">Teleconsulta</span>
+              <span class="card-city onde-city serif italic leading-[1.0] tracking-tight" style="font-size:clamp(38px,3.5vw,52px)">Online</span>
+              <span class="card-label onde-label mt-4 text-[12px] tracking-[0.08em] uppercase font-medium">Ver detalhes ↓</span>
+            </button>
+            <div class="card-content overflow-hidden relative" style="z-index:1;">
+              <div class="px-8 pb-8 pt-1 flex flex-col gap-5">
+                <div>
+                  <div class="onde-lbl text-[11px] tracking-[0.18em] uppercase mb-2" style="color:rgba(248,245,240,0.70);">Como funciona</div>
+                  <p class="text-[15px] leading-[1.65]" style="color:#F8F5F0;">
+                    Google Meet ou WhatsApp Vídeo.<br/>
+                    Mesmo agendamento do presencial.
+                  </p>
+                </div>
+                <a href="https://wa.me/5533988775600?text=Ol%C3%A1%20Dr.%20Marco%20Aur%C3%A9lio%2C%20gostaria%20de%20agendar%20uma%20consulta%20online"
+                   target="_blank" rel="noopener"
+                   class="inline-flex items-center gap-2 px-5 py-3 rounded-full text-[14px] font-medium self-start mt-1"
+                   style="background:#8B2020; color:#F8F5F0;">
+                  Agendar consulta online →
+                </a>
+              </div>
+            </div>
+          </div><!-- /card 3 online -->
+
+          <!-- CARD 4 — Hospital HIC -->
+          <div class="location-card onde-card rounded-2xl overflow-hidden relative"
+               style="border:1px solid rgba(27,47,78,0.18);"
+               data-card="hospital"
+               data-bg-url="https://maps.googleapis.com/maps/api/staticmap?center=Rua+Cap+Bernardo+257+Guanhaes+MG&zoom=15&size=600x400&maptype=roadmap">
+            <div class="onde-overlay absolute inset-0 pointer-events-none" style="background:rgba(27,47,78,0.85); opacity:0; transition:opacity .45s ease; z-index:0;"></div>
+            <button class="card-toggle onde-trigger relative w-full text-left px-8 pt-8 pb-7 flex flex-col" style="z-index:1;">
+              <span class="card-kicker onde-kicker text-[11px] tracking-[0.18em] uppercase mb-3">Cirurgias</span>
+              <span class="card-city onde-city serif italic leading-[1.0] tracking-tight" style="font-size:clamp(32px,2.8vw,44px)">Hospital<br/>HIC</span>
+              <span class="card-label onde-label mt-4 text-[12px] tracking-[0.08em] uppercase font-medium">Ver detalhes ↓</span>
+            </button>
+            <div class="card-content overflow-hidden relative" style="z-index:1;">
+              <div class="px-8 pb-8 pt-1 flex flex-col gap-5">
+                <div>
+                  <div class="onde-lbl text-[11px] tracking-[0.18em] uppercase mb-2" style="color:rgba(248,245,240,0.70);">Hospital</div>
+                  <a href="https://maps.google.com/?q=Rua+Cap.+Bernardo,+257,+Guanh%C3%A3es,+MG" target="_blank" rel="noopener"
+                     class="text-[15px] leading-[1.65] underline underline-offset-2 decoration-[rgba(248,245,240,0.40)]" style="color:#F8F5F0;">
+                    Hospital Regional Imaculada Conceição<br/>
+                    Rua Cap. Bernardo, 257, Centro<br/>
+                    Guanhães/MG · CEP 39740-000
+                  </a>
+                </div>
+                <div>
+                  <div class="onde-lbl text-[11px] tracking-[0.18em] uppercase mb-2" style="color:rgba(248,245,240,0.70);">Sobre</div>
+                  <p class="text-[15px] leading-[1.65]" style="color:#F8F5F0;">
+                    Cirurgias otorrinolaringológicas realizadas no HIC,
+                    o principal hospital de referência do Centro-Nordeste
+                    de Minas Gerais.
+                  </p>
+                </div>
+                <a href="http://www.hic.org.br" target="_blank" rel="noopener"
+                   class="text-[13px] underline underline-offset-2 self-start"
+                   style="color:rgba(248,245,240,0.55);">
+                  www.hic.org.br
+                </a>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -615,170 +779,6 @@
               Agendar consulta online
             </a>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================================
-         ONDE ATENDO
-         ============================================================ -->
-    <section id="onde" class="bg-cream rule-navy-t">
-      <div class="max-w-[1180px] mx-auto px-6 md:px-12 pt-24 md:pt-28 pb-20 md:pb-24">
-        <div class="flex flex-col gap-4 mb-12">
-          <div class="text-[12px] tracking-[0.18em] uppercase text-bordo flex items-center gap-3">
-            <span class="w-7 h-px bg-bordo" aria-hidden="true"></span>
-            Onde atendo
-          </div>
-          <h2 class="serif font-medium text-[44px] md:text-[56px] leading-[1.04] tracking-tight text-navy max-w-[760px]">
-            Dois endereços. Mesma agenda, mesmo WhatsApp.
-          </h2>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 items-start">
-
-          <!-- CARD 1 — Guanhães -->
-          <div class="location-card onde-card rounded-2xl overflow-hidden relative"
-               style="border:1px solid rgba(27,47,78,0.18);"
-               data-card="guanhaes"
-               data-bg-url="https://maps.googleapis.com/maps/api/staticmap?center=Rua+Dr+Odilon+Behrens+164+Guanhaes+MG&zoom=15&size=600x400&maptype=roadmap">
-            <div class="onde-overlay absolute inset-0 pointer-events-none" style="background:rgba(27,47,78,0.85); opacity:0; transition:opacity .45s ease; z-index:0;"></div>
-            <button class="card-toggle onde-trigger relative w-full text-left px-8 pt-8 pb-7 flex flex-col" style="z-index:1;">
-              <span class="card-kicker onde-kicker text-[11px] tracking-[0.18em] uppercase mb-3">Atendimento principal</span>
-              <span class="card-city onde-city serif italic leading-[1.0] tracking-tight" style="font-size:clamp(38px,3.5vw,52px)">Guanhães</span>
-              <span class="card-label onde-label mt-4 text-[12px] tracking-[0.08em] uppercase font-medium">Ver detalhes ↓</span>
-            </button>
-            <div class="card-content overflow-hidden relative" style="z-index:1;">
-              <div class="px-8 pb-8 pt-1 flex flex-col gap-5">
-                <div>
-                  <div class="onde-lbl text-[11px] tracking-[0.18em] uppercase mb-2" style="color:rgba(248,245,240,0.70);">Endereço</div>
-                  <a href="https://maps.google.com/?q=Rua+Dr.+Odilon+Behrens,+164,+Guanhães,+MG" target="_blank" rel="noopener"
-                     class="text-[15px] leading-[1.65] underline underline-offset-2 decoration-[rgba(248,245,240,0.40)]" style="color:#F8F5F0;">
-                    Rua Dr. Odilon Behrens, 164, 2º andar<br/>
-                    Centro · Guanhães/MG · CEP 39740-000
-                  </a>
-                </div>
-                <div>
-                  <div class="onde-lbl text-[11px] tracking-[0.18em] uppercase mb-2" style="color:rgba(248,245,240,0.70);">Telefones</div>
-                  <p class="text-[15px]" style="color:#F8F5F0;">(33) 98877-5600 · (33) 3421-1645</p>
-                </div>
-                <div>
-                  <div class="onde-lbl text-[11px] tracking-[0.18em] uppercase mb-2" style="color:rgba(248,245,240,0.70);">Ligar para agendar</div>
-                  <a href="tel:+553334211804" class="text-[15px] underline underline-offset-2" style="color:#F8F5F0;">(33) 3421-1804</a>
-                </div>
-                <div>
-                  <div class="onde-lbl text-[11px] tracking-[0.18em] uppercase mb-2" style="color:rgba(248,245,240,0.70);">Convênios</div>
-                  <p class="text-[15px] leading-[1.65]" style="color:#F8F5F0;">Unimed · Cenibra · Cassi<br/>PMMG · Univida · <em>Particular</em></p>
-                </div>
-                <a href="https://wa.me/5533988775600?text=Ol%C3%A1%20Dr.%20Marco%20Aur%C3%A9lio%2C%20gostaria%20de%20agendar%20uma%20consulta"
-                   target="_blank" rel="noopener"
-                   class="inline-flex items-center gap-2 px-5 py-3 rounded-full text-[14px] font-medium self-start mt-1"
-                   style="background:#8B2020; color:#F8F5F0;">
-                  Agendar via WhatsApp →
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- CARD 2 — Santa Maria do Suaçuí -->
-          <div class="location-card onde-card rounded-2xl overflow-hidden relative"
-               style="border:1px solid rgba(27,47,78,0.18);"
-               data-card="santamaria"
-               data-bg-url="https://maps.googleapis.com/maps/api/staticmap?center=Praca+Batista+Lopes+30+Santa+Maria+do+Suacui+MG&zoom=15&size=600x400&maptype=roadmap">
-            <div class="onde-overlay absolute inset-0 pointer-events-none" style="background:rgba(27,47,78,0.85); opacity:0; transition:opacity .45s ease; z-index:0;"></div>
-            <button class="card-toggle onde-trigger relative w-full text-left px-8 pt-8 pb-7 flex flex-col" style="z-index:1;">
-              <span class="card-kicker onde-kicker text-[11px] tracking-[0.18em] uppercase mb-3">Atendimento secundário</span>
-              <span class="card-city onde-city serif italic leading-[1.0] tracking-tight" style="font-size:clamp(30px,2.8vw,44px)">Santa Maria<br/>do Suaçuí</span>
-              <span class="card-label onde-label mt-4 text-[12px] tracking-[0.08em] uppercase font-medium">Ver detalhes ↓</span>
-            </button>
-            <div class="card-content overflow-hidden relative" style="z-index:1;">
-              <div class="px-8 pb-8 pt-1 flex flex-col gap-5">
-                <div>
-                  <div class="onde-lbl text-[11px] tracking-[0.18em] uppercase mb-2" style="color:rgba(248,245,240,0.70);">Endereço</div>
-                  <a href="https://maps.google.com/?q=Pra%C3%A7a+Batista+Lopes%2C+30%2C+Santa+Maria+do+Sua%C3%A7u%C3%AD%2C+MG" target="_blank" rel="noopener"
-                     class="text-[15px] leading-[1.65] underline underline-offset-2 decoration-[rgba(248,245,240,0.40)]" style="color:#F8F5F0;">
-                    Praça Batista Lopes, 30, Centro<br/>
-                    Santa Maria do Suaçuí/MG · CEP 39780-000
-                  </a>
-                </div>
-                <a href="https://wa.me/5533988775600?text=Ol%C3%A1%20Dr.%20Marco%20Aur%C3%A9lio%2C%20gostaria%20de%20agendar%20em%20Santa%20Maria%20do%20Sua%C3%A7u%C3%AD"
-                   target="_blank" rel="noopener"
-                   class="inline-flex items-center gap-2 px-5 py-3 rounded-full text-[14px] font-medium self-start mt-1"
-                   style="background:#8B2020; color:#F8F5F0;">
-                  Agendar via WhatsApp →
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- CARD 3 — Online -->
-          <div class="location-card onde-card rounded-2xl overflow-hidden relative"
-               style="border:1px solid rgba(27,47,78,0.18);"
-               data-card="online"
-               data-bg-url="">
-            <div class="onde-overlay absolute inset-0 pointer-events-none" style="background:rgba(27,47,78,0.92); opacity:0; transition:opacity .45s ease; z-index:0;"></div>
-            <button class="card-toggle onde-trigger relative w-full text-left px-8 pt-8 pb-7 flex flex-col" style="z-index:1;">
-              <span class="card-kicker onde-kicker text-[11px] tracking-[0.18em] uppercase mb-3">Teleconsulta</span>
-              <span class="card-city onde-city serif italic leading-[1.0] tracking-tight" style="font-size:clamp(38px,3.5vw,52px)">Online</span>
-              <span class="card-label onde-label mt-4 text-[12px] tracking-[0.08em] uppercase font-medium">Ver detalhes ↓</span>
-            </button>
-            <div class="card-content overflow-hidden relative" style="z-index:1;">
-              <div class="px-8 pb-8 pt-1 flex flex-col gap-5">
-                <div>
-                  <div class="onde-lbl text-[11px] tracking-[0.18em] uppercase mb-2" style="color:rgba(248,245,240,0.70);">Como funciona</div>
-                  <p class="text-[15px] leading-[1.65]" style="color:#F8F5F0;">
-                    Google Meet ou WhatsApp Vídeo.<br/>
-                    Mesmo agendamento do presencial.
-                  </p>
-                </div>
-                <a href="https://wa.me/5533988775600?text=Ol%C3%A1%20Dr.%20Marco%20Aur%C3%A9lio%2C%20gostaria%20de%20agendar%20uma%20consulta%20online"
-                   target="_blank" rel="noopener"
-                   class="inline-flex items-center gap-2 px-5 py-3 rounded-full text-[14px] font-medium self-start mt-1"
-                   style="background:#8B2020; color:#F8F5F0;">
-                  Agendar consulta online →
-                </a>
-              </div>
-            </div>
-          </div><!-- /card 3 online -->
-
-          <!-- CARD 4 — Hospital HIC -->
-          <div class="location-card onde-card rounded-2xl overflow-hidden relative"
-               style="border:1px solid rgba(27,47,78,0.18);"
-               data-card="hospital"
-               data-bg-url="https://maps.googleapis.com/maps/api/staticmap?center=Rua+Cap+Bernardo+257+Guanhaes+MG&zoom=15&size=600x400&maptype=roadmap">
-            <div class="onde-overlay absolute inset-0 pointer-events-none" style="background:rgba(27,47,78,0.85); opacity:0; transition:opacity .45s ease; z-index:0;"></div>
-            <button class="card-toggle onde-trigger relative w-full text-left px-8 pt-8 pb-7 flex flex-col" style="z-index:1;">
-              <span class="card-kicker onde-kicker text-[11px] tracking-[0.18em] uppercase mb-3">Cirurgias</span>
-              <span class="card-city onde-city serif italic leading-[1.0] tracking-tight" style="font-size:clamp(32px,2.8vw,44px)">Hospital<br/>HIC</span>
-              <span class="card-label onde-label mt-4 text-[12px] tracking-[0.08em] uppercase font-medium">Ver detalhes ↓</span>
-            </button>
-            <div class="card-content overflow-hidden relative" style="z-index:1;">
-              <div class="px-8 pb-8 pt-1 flex flex-col gap-5">
-                <div>
-                  <div class="onde-lbl text-[11px] tracking-[0.18em] uppercase mb-2" style="color:rgba(248,245,240,0.70);">Hospital</div>
-                  <a href="https://maps.google.com/?q=Rua+Cap.+Bernardo,+257,+Guanh%C3%A3es,+MG" target="_blank" rel="noopener"
-                     class="text-[15px] leading-[1.65] underline underline-offset-2 decoration-[rgba(248,245,240,0.40)]" style="color:#F8F5F0;">
-                    Hospital Regional Imaculada Conceição<br/>
-                    Rua Cap. Bernardo, 257, Centro<br/>
-                    Guanhães/MG · CEP 39740-000
-                  </a>
-                </div>
-                <div>
-                  <div class="onde-lbl text-[11px] tracking-[0.18em] uppercase mb-2" style="color:rgba(248,245,240,0.70);">Sobre</div>
-                  <p class="text-[15px] leading-[1.65]" style="color:#F8F5F0;">
-                    Cirurgias otorrinolaringológicas realizadas no HIC,
-                    o principal hospital de referência do Centro-Nordeste
-                    de Minas Gerais.
-                  </p>
-                </div>
-                <a href="http://www.hic.org.br" target="_blank" rel="noopener"
-                   class="text-[13px] underline underline-offset-2 self-start"
-                   style="color:rgba(248,245,240,0.55);">
-                  www.hic.org.br
-                </a>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
     </section>
